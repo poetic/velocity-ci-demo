@@ -10,4 +10,3 @@ insecure
 velocity:core
 sanjo:jasmine
 pstuart2:velocity-notify
-velocity:html-reporter

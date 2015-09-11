@@ -1,0 +1,1 @@
+DISPLAY=:1 VELOCITY_DEBUG=1 meteor
