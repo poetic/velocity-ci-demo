@@ -5,4 +5,5 @@ node_js:
 
 before_install:
   - "curl https://install.meteor.com | sh"
-  - "meteor --test --release velocity:METEOR@1.1.0.3_1"
+
+script: "meteor --test --release velocity:METEOR@1.1.0.3_1"
