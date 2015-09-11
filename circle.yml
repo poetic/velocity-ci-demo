@@ -9,6 +9,7 @@ test:
           CUCUMBER_SCREENSHOTS_DIR: "$CIRCLE_ARTIFACTS/screenshots/chrome"
           CUCUMBER_JSON_OUTPUT: "$CIRCLE_TEST_REPORTS/chrome.cucumber"
           SELENIUM_BROWSER: chrome
+          VELOCITY_CI: true
     - mkdir -p $CIRCLE_ARTIFACTS/chrome
     - cp .meteor/local/log/*.log $CIRCLE_ARTIFACTS/chrome
 
@@ -18,5 +19,6 @@ test:
           CUCUMBER_SCREENSHOTS_DIR: "$CIRCLE_ARTIFACTS/screenshots/firefox"
           CUCUMBER_JSON_OUTPUT: "$CIRCLE_TEST_REPORTS/firefox.cucumber"
           SELENIUM_BROWSER: firefox
+          VELOCITY_CI: true
     - mkdir -p $CIRCLE_ARTIFACTS/firefox
     - cp .meteor/local/log/*.log $CIRCLE_ARTIFACTS/firefox
