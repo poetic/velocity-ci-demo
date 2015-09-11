@@ -1,5 +1,7 @@
 test:
   override:
+    # Install Meteor
+    - curl https://install.meteor.com | sh
 
     # Test the app with Chrome and ensure all artifacts can be traced back to the chrome run
     - meteor --test:
