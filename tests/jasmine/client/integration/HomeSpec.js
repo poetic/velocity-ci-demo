@@ -9,9 +9,5 @@ describe('Click', function() {
       expect( parseInt($('.counter')[0].innerHTML) ).toBe( 1 );
       done();
     });
-  });
-  
-  it("failing test",function(){
-    expect( 1 ).toBe( 0 );
-  });
+  });  
 });

@@ -16,7 +16,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use('tinytest');
+  api.use('sanjo:jasmine@0.18.0');
   api.use('demo-test-package');
-  api.addFiles('demo-test-package-tests.js');
+  api.addFiles('test-spec.js');
 });
