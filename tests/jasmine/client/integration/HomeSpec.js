@@ -10,4 +10,8 @@ describe('Click', function() {
       done();
     });
   });
+  
+  it("failing test",function(){
+    expect( 1 ).toBe( 0 );
+  });
 });
